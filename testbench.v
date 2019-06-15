@@ -2,7 +2,7 @@
 
 module testbench;
 
-	reg reset;			// asynchronous active-high reset
+	reg reset;			// asynchronous active-high reset 
 
 	reg clk_in;			// write clock
 	reg we;				// active-high write enable
