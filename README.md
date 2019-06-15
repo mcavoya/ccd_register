@@ -1,7 +1,7 @@
 # ccd_register
 Verilog HDL Cross Clock Domain Register
 
-There are (at least) two clock domain crossing issues: metastability and data loss. Metastability happens when a signal changes state too close to the active edge of a clock and violates the setup or hold time. Data loss then occurs when metastability causes the destination domain to latch incorrect source data.
+There are (at least) two clock domain crossing issues: metastability and data loss. Metastability happens when a signal changes state too close to the active edge of a clock and violates the setup or hold time. Data loss then occurs when metastability causes the destination domain to latch incorrect source data. These problems are mitigated by using cross clock domain handshaking.
 
 This project is basically a one byte FIFO with independent clocks for the write port and the read port. By using cross clock domain handshaking, the destination domain can be guaranteed to read valid data. Also, the source domain can guarantee the data has been read before writing new information.
 
