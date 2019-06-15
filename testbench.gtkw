@@ -1,0 +1,32 @@
+[*]
+[*] GTKWave Analyzer v3.3.71 (w)1999-2016 BSI
+[*] Sat Jun 15 15:36:05 2019
+[*]
+[dumpfile] "E:\Icarus Verilog\Cross Clock Domain Register\testbench.lxt"
+[dumpfile_mtime] "Sat Jun 15 15:34:52 2019"
+[dumpfile_size] 1170
+[savefile] "E:\Icarus Verilog\Cross Clock Domain Register\testbench.gtkw"
+[timestart] 0
+[size] 1283 598
+[pos] -1 -1
+*-16.527960 174000 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[sst_width] 211
+[signals_width] 148
+[sst_expanded] 1
+[sst_vpaned_height] 153
+@28
+testbench.reset[0]
+testbench.clk_in[0]
+@23
+testbench.din[7:0]
+@28
+testbench.we[0]
+@22
+testbench.dout[7:0]
+@28
+testbench.busy[0]
+testbench.clk_out[0]
+testbench.ready[0]
+testbench.re[0]
+[pattern_trace] 1
+[pattern_trace] 0
