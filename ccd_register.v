@@ -32,7 +32,7 @@ module ccd_register (
 	end
 	assign dout = data;
 
-	// - - -
+	// - - - 
 	// cross clock domain ready/busy handshaking
 
 	reg rdy = 1'b0;
